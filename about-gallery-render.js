@@ -4,6 +4,18 @@
   const carouselTrack = document.querySelector("[data-about-carousel-track]");
   const carouselItems = window.MEP_ABOUT_CAROUSEL_KO;
 
+  const appendBilingualCopy = (parent, tagName, ko, en) => {
+    const copy = document.createElement(tagName);
+    const koCopy = document.createElement("span");
+    koCopy.className = "lang-ko";
+    koCopy.textContent = ko || "";
+    const enCopy = document.createElement("span");
+    enCopy.className = "lang-en";
+    enCopy.textContent = en || ko || "";
+    copy.append(koCopy, enCopy);
+    parent.appendChild(copy);
+  };
+
   if (container && Array.isArray(items)) {
     items.forEach((item) => {
       const figure = document.createElement("figure");
@@ -28,9 +40,8 @@
       const caption = document.createElement("figcaption");
       const label = document.createElement("span");
       label.textContent = item.label || "Field note";
-      const copy = document.createElement("p");
-      copy.textContent = item.caption || "";
-      caption.append(label, copy);
+      caption.appendChild(label);
+      appendBilingualCopy(caption, "p", item.caption, item.captionEn);
       figure.append(frame, caption);
       container.appendChild(figure);
     });
@@ -63,9 +74,8 @@
       const caption = document.createElement("figcaption");
       const number = document.createElement("span");
       number.textContent = String(index + 1).padStart(2, "0");
-      const copy = document.createElement("p");
-      copy.textContent = item.caption || "";
-      caption.append(number, copy);
+      caption.appendChild(number);
+      appendBilingualCopy(caption, "p", item.caption, item.captionEn);
       figure.append(frame, caption);
       carouselTrack.appendChild(figure);
     });

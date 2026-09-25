@@ -3,6 +3,10 @@
   const platforms = window.MEP_CONTENT_PLATFORMS_KO || {};
   const typeLabels = { blog: "Article", testimonial: "Student story", video: "Video", profile: "Profile" };
 
+  function isEnglish() {
+    return document.body.dataset.lang === "en";
+  }
+
   function getPlatform(item) {
     if (item.platform) return item.platform;
     if (item.url.includes("blog.naver.com")) return "naver";
@@ -42,7 +46,7 @@
     const platform = platforms[getPlatform(item)];
     const handle = item.handle || platform?.handle;
     addText(footer, "span", "", handle ? `${item.source} · ${handle}` : item.source);
-    addText(footer, "span", "", "읽어보기 →");
+    addText(footer, "span", "", isEnglish() ? "Read more →" : "읽어보기 →");
     link.appendChild(footer);
     return link;
   }

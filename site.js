@@ -1,11 +1,11 @@
 const labels = {
   ko: {
-    services: '서비스', planning: '장기 로드맵', tutoring: '튜터링', camp: '섬머캠프', application: '지원 전략 · 첨삭',
+    services: '서비스', planning: '장기 로드맵', tutoring: '튜터링', camp: '아카데믹 캠프', application: '지원 전략 · 첨삭',
     testimonials: '후기', blogs: '인사이트', about: '소개', contact: '문의', consult: '상담 예약',
     tagline: '학생의 가능성을 세계의 기준으로 준비합니다.', navigate: '바로가기', connect: '연락하기'
   },
   en: {
-    services: 'Services', planning: 'Long-term planning', tutoring: 'Tutoring', camp: 'Summer camp', application: 'Application support',
+    services: 'Services', planning: 'Long-term planning', tutoring: 'Tutoring', camp: 'Academic camps', application: 'Application support',
     testimonials: 'Testimonials', blogs: 'Insights', about: 'About', contact: 'Contact', consult: 'Book a consultation',
     tagline: 'Preparing each student’s potential for the world stage.', navigate: 'Navigate', connect: 'Connect'
   }
@@ -114,6 +114,21 @@ document.querySelectorAll('.site-nav a').forEach((link) => {
 });
 
 document.querySelectorAll('[data-year]').forEach((item) => { item.textContent = String(new Date().getFullYear()); });
+
+document.querySelectorAll('[data-scroll-carousel]').forEach((carousel) => {
+  const track = carousel.querySelector('[data-scroll-carousel-track]');
+  if (!track) return;
+  carousel.querySelectorAll('[data-scroll-carousel-direction]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const distance = Math.min(track.clientWidth * .82, 820);
+      track.scrollBy({
+        left: button.dataset.scrollCarouselDirection === 'previous' ? -distance : distance,
+        behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'
+      });
+    });
+  });
+});
+
 const revealItems = document.querySelectorAll('[data-reveal]');
 if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
   revealItems.forEach((item) => item.classList.add('visible'));

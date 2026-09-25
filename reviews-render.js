@@ -15,6 +15,10 @@
   });
   const states = new WeakMap();
 
+  function isEnglish() {
+    return document.body.dataset.lang === "en";
+  }
+
   function appendText(parent, tag, className, value) {
     if (!value) return null;
     const element = document.createElement(tag);
@@ -35,20 +39,20 @@
     appendText(top, "span", "review-card__source", review.source || "My EDU Prep");
     article.appendChild(top);
 
-    appendText(article, "h3", "review-card__title", review.title);
-    appendText(article, "p", "review-card__text", review.text);
+    appendText(article, "h3", "review-card__title", isEnglish() && review.titleEn ? review.titleEn : review.title);
+    appendText(article, "p", "review-card__text", isEnglish() && review.textEn ? review.textEn : review.text);
 
     const footer = document.createElement("footer");
     footer.className = "review-card__footer";
     const identity = document.createElement("div");
-    appendText(identity, "strong", "", review.displayName);
-    appendText(identity, "span", "", review.institution);
+    appendText(identity, "strong", "", isEnglish() && review.displayNameEn ? review.displayNameEn : review.displayName);
+    appendText(identity, "span", "", isEnglish() && review.institutionEn ? review.institutionEn : review.institution);
     footer.appendChild(identity);
 
     if (Number.isFinite(review.rating)) {
       const stars = document.createElement("span");
       stars.className = "review-card__rating";
-      stars.setAttribute("aria-label", `${review.rating}점 만점 후기`);
+      stars.setAttribute("aria-label", isEnglish() ? `${review.rating} out of 5 stars` : `${review.rating}점 만점 후기`);
       stars.textContent = "★".repeat(Math.max(0, Math.min(5, review.rating)));
       footer.appendChild(stars);
     }
@@ -60,7 +64,7 @@
       link.href = review.url;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
-      link.textContent = "원문 보기 ↗";
+      link.textContent = isEnglish() ? "View original ↗" : "원문 보기 ↗";
       article.appendChild(link);
     }
     return article;
@@ -85,17 +89,21 @@
 
     container.replaceChildren();
     if (!selected.length) {
-      appendText(container, "p", "review-empty", "해당 카테고리의 후기를 준비 중입니다.");
+      appendText(container, "p", "review-empty", isEnglish() ? "Reviews in this category are coming soon." : "해당 카테고리의 후기를 준비 중입니다.");
       return;
     }
     selected.forEach((review) => container.appendChild(makeReviewCard(review)));
 
     const summary = document.querySelector(`[data-review-summary][data-review-target="#${container.id}"]`);
-    if (summary) summary.textContent = `총 ${total}개의 후기 중 ${selected.length}개를 보고 있습니다.`;
+    if (summary) summary.textContent = isEnglish()
+      ? `Showing ${selected.length} of ${total} reviews.`
+      : `총 ${total}개의 후기 중 ${selected.length}개를 보고 있습니다.`;
     const loadMore = document.querySelector(`[data-review-load-more][data-review-target="#${container.id}"]`);
     if (loadMore) {
       loadMore.hidden = selected.length >= total;
-      loadMore.textContent = `후기 더 보기 (${Math.max(0, total - selected.length)}개 남음)`;
+      loadMore.textContent = isEnglish()
+        ? `Load more reviews (${Math.max(0, total - selected.length)} remaining)`
+        : `후기 더 보기 (${Math.max(0, total - selected.length)}개 남음)`;
     }
   }
 

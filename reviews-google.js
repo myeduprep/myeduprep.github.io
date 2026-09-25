@@ -147,9 +147,13 @@
     return {
     id: `google-${index + 1}`,
     title: text.length > 68 ? `${text.slice(0, 65).trim()}…` : text,
+    titleEn: originalText.length > 68 ? `${originalText.slice(0, 65).trim()}…` : originalText,
     text,
+    textEn: originalText,
     displayName: "Google 이용자",
+    displayNameEn: "Google reviewer",
     institution: "Google 후기",
+    institutionEn: "Google review",
     category: categoryFor(originalText),
     source: "Google",
     rating: 5,
