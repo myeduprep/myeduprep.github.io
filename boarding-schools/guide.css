@@ -1,0 +1,46 @@
+/* Extend the existing My EDU Prep palette, typography and page components. */
+.school-hero h1 { font-size: clamp(2.8rem, 5.5vw, 5rem); max-width: 1000px; }
+.school-hero .lead { max-width: 780px; }
+.school-notice { margin: 1.5rem 0 2.5rem; padding: 1.3rem 1.5rem; border-left: 3px solid var(--teal); background: var(--mist); color: var(--muted); font-size: .92rem; }
+.school-filters { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin: 2rem 0; align-items: end; }
+.school-filters label, .school-compare-picker label { display: grid; gap: .5rem; font-size: .85rem; font-weight: 750; }
+.school-filters input, .school-filters select, .school-compare-picker select { width: 100%; min-height: 3.25rem; padding: .7rem; font: inherit; color: var(--navy); background: var(--paper); border: 1px solid var(--line); border-radius: 2px; }
+.school-filters .school-search { grid-column: span 2; }
+.school-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.5rem; }
+.school-card { border: 1px solid var(--line); background: var(--paper); }
+.school-placeholder { min-height: 160px; padding: 2rem; display: grid; place-items: center; text-align: center; background: var(--mist); border-bottom: 1px solid var(--line); color: var(--navy-2); font: 500 1.8rem/1.3 var(--serif); }
+.school-card-body { padding: clamp(1.25rem, 3vw, 2rem); }
+.school-card h2 { font-size: 1.9rem; }
+.school-card p { color: var(--muted); font-size: .9rem; }
+.school-card dl { margin: 1.5rem 0; }
+.school-card dl > div { padding: .65rem 0; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; font-size: .84rem; }
+.school-card dt { font-weight: 750; }
+.school-card dd { margin: 0; }
+.school-unknown { color: var(--muted); font-size: .88rem; }
+.school-source { display: block; margin-top: .5rem; color: var(--muted); font-size: .75rem; }
+.school-source a { text-decoration: underline; }
+.school-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.school-actions button, .school-compare-picker button { cursor: pointer; font-family: var(--sans); }
+.school-actions [aria-pressed="true"] { background: var(--mist); border-color: var(--navy); }
+.school-selection { margin-top: 2rem; padding: 1.5rem; border: 1px solid var(--line); background: var(--paper); }
+.school-profile { max-width: 940px; }
+.school-profile-section { padding: 2.5rem 0; border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.school-profile-section h2 { font-size: clamp(1.8rem, 3vw, 2.7rem); }
+.school-facts > div { display: grid; grid-template-columns: 1fr 2fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); }
+.school-facts dt { font-weight: 750; }
+.school-facts dd { margin: 0; }
+.school-compare-picker { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; margin: 2rem 0 1rem; }
+.school-compare-picker select { width: auto; max-width: 100%; }
+.school-table-scroll { overflow-x: auto; margin: 1.5rem 0; }
+.school-compare-table { width: 100%; min-width: calc(160px + var(--school-count, 1) * 220px); table-layout: fixed; border-collapse: collapse; background: var(--paper); font-size: .9rem; }
+.school-compare-table th, .school-compare-table td { border: 1px solid var(--line); padding: 1.1rem; vertical-align: top; text-align: left; overflow-wrap: anywhere; }
+.school-compare-table th:first-child { width: 160px; background: var(--mist); }
+.school-compare-table thead th { background: var(--navy); color: white; }
+.school-compare-table thead th:first-child { background: var(--navy-2); }
+.school-remove { display: block; margin-top: .8rem; padding: .4rem .7rem; background: var(--paper); border: 1px solid var(--line); color: var(--navy); font: inherit; cursor: pointer; }
+.school-mobile-tip { color: var(--muted); font-size: .85rem; }
+.school-filters :focus-visible, .school-table-scroll:focus-visible, .school-remove:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
+[hidden] { display: none !important; }
+@media (max-width: 1000px) and (min-width: 801px) { .site-nav { gap: .5rem; } }
+@media (max-width: 800px) { .school-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); } .school-grid { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .school-facts > div { grid-template-columns: 1fr; gap: .35rem; } .school-compare-table { min-width: calc(110px + var(--school-count, 1) * 140px); font-size: .8rem; } .school-compare-table th:first-child { width: 110px; } .school-compare-table th, .school-compare-table td { padding: .7rem; } .school-filters { gap: .7rem; } }

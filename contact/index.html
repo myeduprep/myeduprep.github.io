@@ -11,7 +11,7 @@
   <link rel="canonical" href="https://myeduprep.com/contact/">
   <link rel="icon" href="/assets/favicon.svg">
   <link rel="stylesheet" href="/site.css?v=20260925-8">
-  <script src="/site.js?v=20260925-3" defer></script>
+  <script src="/site.js?v=20261022-1" defer></script>
   <title>상담 및 문의 | My EDU Prep</title>
 </head>
 <body id="top" data-lang="ko" data-title-ko="상담 및 문의 | My EDU Prep" data-title-en="Contact | My EDU Prep" data-description-ko="My EDU Prep 상담 예약 및 문의." data-description-en="Book a consultation or contact My EDU Prep.">
@@ -78,6 +78,12 @@
             </div>
 
             <label class="contact-field">
+              <span><span class="lang-ko">휴대전화 번호</span><span class="lang-en">Mobile Phone Number</span> <b aria-hidden="true">*</b></span>
+              <input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="010-1234-5678 / +82 10-1234-5678" required minlength="7" maxlength="40" pattern="[+0-9\(\) .\-]{7,40}" aria-describedby="phone-help">
+              <small id="phone-help"><span class="lang-ko">국가번호를 포함한 해외 번호도 입력할 수 있습니다.</span><span class="lang-en">Korean and international numbers, including country codes, are accepted.</span></small>
+            </label>
+
+            <label class="contact-field">
               <span><span class="lang-ko">서비스</span><span class="lang-en">Service</span> <b aria-hidden="true">*</b></span>
               <select name="service" required>
                 <option value="" selected disabled>서비스를 선택해 주세요 / Select a service</option>
@@ -98,8 +104,8 @@
               <span class="lang-ko">문의하기</span><span class="lang-en">Send enquiry</span>
             </button>
             <p class="contact-form-note">
-              <span class="lang-ko">제출하신 정보는 상담 답변을 위해 이메일로 전달됩니다.</span>
-              <span class="lang-en">The information you submit will be sent by email so we can respond to your enquiry.</span>
+              <span class="lang-ko">이름, 이메일, 휴대전화 번호와 문의내용은 상담 답변 및 후속 연락을 위해 기존 이메일 접수 서비스(FormSubmit)를 통해 전달됩니다.</span>
+              <span class="lang-en">Your name, email, mobile phone number and enquiry are sent through our existing email form service (FormSubmit) for consultation replies and follow-up.</span>
             </p>
           </form>
         </div>

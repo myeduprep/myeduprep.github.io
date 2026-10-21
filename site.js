@@ -1,12 +1,12 @@
 const labels = {
   ko: {
     services: '서비스', planning: '장기 로드맵', tutoring: '튜터링', camp: '아카데믹 캠프', application: '지원 전략 · 첨삭',
-    testimonials: '후기', blogs: '인사이트', about: '소개', contact: '문의', consult: '상담 예약',
+    boarding: '영국 보딩스쿨', testimonials: '후기', blogs: '인사이트', about: '소개', contact: '문의', consult: '상담 예약',
     tagline: '학생의 가능성을 세계의 기준으로 준비합니다.', navigate: '바로가기', connect: '연락하기'
   },
   en: {
     services: 'Services', planning: 'Long-term planning', tutoring: 'Tutoring', camp: 'Academic camps', application: 'Application support',
-    testimonials: 'Testimonials', blogs: 'Insights', about: 'About', contact: 'Contact', consult: 'Book a consultation',
+    boarding: 'British Boarding Schools', testimonials: 'Testimonials', blogs: 'Insights', about: 'About', contact: 'Contact', consult: 'Book a consultation',
     tagline: 'Preparing each student’s potential for the world stage.', navigate: 'Navigate', connect: 'Connect'
   }
 };
@@ -35,6 +35,7 @@ class SiteHeader extends HTMLElement {
                 <a href="/application-support/">${t.application}</a>
               </div>
             </details>
+            <a href="/boarding-schools/">${t.boarding}</a>
             <a href="/testimonials/">${t.testimonials}</a>
             <a href="/blogs/">${t.blogs}</a>
             <a href="/about/">${t.about}</a>
@@ -59,7 +60,8 @@ class SiteFooter extends HTMLElement {
           <div class="footer-brand"><img src="/assets/logo.webp" alt="My EDU Prep"><p>${t.tagline}</p></div>
           <div class="footer-nav">
             <div><strong>${t.services}</strong><a href="/long-term-planning/">${t.planning}</a><a href="/tutoring/">${t.tutoring}</a><a href="/summer-camp/">${t.camp}</a><a href="/application-support/">${t.application}</a></div>
-            <div><strong>${t.navigate}</strong><a href="/testimonials/">${t.testimonials}</a><a href="/blogs/">${t.blogs}</a><a href="/about/">${t.about}</a><a href="/contact/">${t.contact}</a></div>
+            <div><strong>${t.navigate}</strong><a href="/boarding-schools/">${t.boarding}</a>
+            <a href="/testimonials/">${t.testimonials}</a><a href="/blogs/">${t.blogs}</a><a href="/about/">${t.about}</a><a href="/contact/">${t.contact}</a></div>
             <div><strong>${t.connect}</strong><a href="mailto:info@myeduprep.com">Email</a><a href="https://www.instagram.com/myeduprep/" target="_blank" rel="noopener">Instagram</a><a href="https://blog.naver.com/myeduprep" target="_blank" rel="noopener">Naver Blog</a><a href="https://www.youtube.com/@uk0uh" target="_blank" rel="noopener">YouTube</a></div>
           </div>
         </div>
@@ -138,3 +140,19 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('Intersec
   }), { threshold: .1, rootMargin: '0px 0px -30px' });
   revealItems.forEach((item) => observer.observe(item));
 }
+
+// Keep the existing native FormSubmit flow; validate international phone numbers locally.
+const contactPhone = document.querySelector('[data-contact-form] input[name="phone"]');
+function validateContactPhone() {
+  const digits = contactPhone.value.replace(/\D/g, '');
+  const valid = !contactPhone.value || (digits.length >= 7 && digits.length <= 15);
+  contactPhone.setCustomValidity(valid ? '' : (currentLanguage() === 'en'
+    ? 'Please enter a phone number with 7 to 15 digits, including the country code if needed.'
+    : '국가번호를 포함해 숫자 7~15자리의 전화번호를 입력해 주세요.'));
+}
+contactPhone?.addEventListener('input', validateContactPhone);
+contactPhone?.addEventListener('change', validateContactPhone);
+contactPhone?.form.addEventListener('submit', (event) => {
+  validateContactPhone();
+  if (!contactPhone.checkValidity()) { event.preventDefault(); contactPhone.reportValidity(); }
+});

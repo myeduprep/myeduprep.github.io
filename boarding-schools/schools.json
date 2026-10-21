@@ -1,0 +1,1320 @@
+{
+  "schemaVersion": 1,
+  "schools": [
+    {
+      "id": "bradfield",
+      "name": "Bradfield College",
+      "website": "https://www.bradfieldcollege.org.uk/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "bedes",
+      "name": "Bede’s Senior School",
+      "website": "https://www.bedes.org/senior-school",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "lancing",
+      "name": "Lancing College",
+      "website": "https://www.lancingcollege.co.uk/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "embley",
+      "name": "Embley",
+      "website": "https://embley.org.uk/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "canford",
+      "name": "Canford School",
+      "website": "https://www.canford.com/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "bryanston",
+      "name": "Bryanston School",
+      "website": "https://www.bryanston.co.uk/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "clayesmore",
+      "name": "Clayesmore School",
+      "website": "https://www.clayesmore.com/",
+      "identityNote": null,
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    },
+    {
+      "id": "talbot-heath",
+      "name": "Talbot Heath School",
+      "website": "https://www.talbotheath.org/",
+      "identityNote": {
+        "ko": "요청하신 여학교 Talbot Heath School입니다. 학교 유형 등 세부 정보는 공식 자료 확인 후 반영합니다.",
+        "en": "The girls’ school Talbot Heath specified in this guide’s brief. School type and other details await official verification."
+      },
+      "facts": {
+        "location": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "gender": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "age": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "boarding": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "size": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "introduction": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "programmes": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "results": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "destinations": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "entry": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "assessments": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "interviews": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "application": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "international": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "english": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "weekends": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "houses": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "eal": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "learning": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "pastoral": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "internationalSupport": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "fees": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "vat": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "extras": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "activities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        },
+        "facilities": {
+          "value": null,
+          "sourceUrl": null,
+          "academicYear": null,
+          "verifiedAt": null
+        }
+      }
+    }
+  ]
+}
