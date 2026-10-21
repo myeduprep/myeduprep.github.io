@@ -1,0 +1,1134 @@
+{
+  "verifiedDate": "2026-10-21",
+  "schools": [
+    {
+      "slug": "bedes",
+      "name": "Bede's Senior School",
+      "website": "https://www.bedes.org/senior-school",
+      "intro": {
+        "ko": "East Sussex의 Upper Dicker에 위치한 남녀공학 통학·기숙학교입니다. Sixth Form에서 A-Level과 BTEC을 선택하거나 함께 공부할 수 있습니다.",
+        "en": "A co-educational day and boarding school in Upper Dicker, East Sussex, with A-Level and BTEC pathways in the Sixth Form."
+      },
+      "facts": {
+        "location": {
+          "value": "East Sussex",
+          "ko": "Upper Dicker, East Sussex",
+          "en": "Upper Dicker, East Sussex",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "13–18세 · Senior School",
+          "en": "Ages 13–18 · Senior School",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "weekly",
+            "day"
+          ],
+          "ko": "풀·주중 기숙 / 통학",
+          "en": "Full / weekly boarding / day",
+          "source": "https://www.bedes.org/senior-school/boarding-at-bedes",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level",
+            "BTEC"
+          ],
+          "ko": "GCSE · A-Level · BTEC",
+          "en": "GCSE · A-Level · BTEC",
+          "source": "https://www.bedes.org/sixth-form/academic-programme",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "ko": "Year 7–10, 12 · Year 11은 Pre-Sixth; Year 7–8 캠퍼스 확인 필요",
+          "en": "Years 7–10 and 12; Year 11 via Pre-Sixth; confirm Year 7–8 campus",
+          "source": "https://www.bedes.org/admissions/overseas-admissions",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": {
+          "value": true,
+          "ko": "해외 지원 절차와 온라인 진행은 입학팀에 문의",
+          "en": "Contact admissions for overseas applications and online arrangements",
+          "source": "https://www.bedes.org/admissions/overseas-admissions",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": {
+          "value": true,
+          "ko": "일반 수업 참여가 가능한 영어 수준 필요 · 수치 기준 미표기",
+          "en": "English proficiency for mainstream lessons required; no numeric threshold stated",
+          "source": "https://www.bedes.org/admissions/overseas-admissions",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "eal": {
+          "value": true,
+          "ko": "영어가 모국어가 아닌 학생 대상 EAL 지원",
+          "en": "EAL support for pupils whose first language is not English",
+          "source": "https://www.bedes.org/admissions/overseas-admissions",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": null,
+        "pastoral": null,
+        "weekends": {
+          "value": true,
+          "ko": "주말 활동·학업 심화·교외 체험 프로그램 운영",
+          "en": "Weekend activities, academic enrichment and outings",
+          "source": "https://www.bedes.org/senior-school/boarding-at-bedes",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "houses": {
+          "value": true,
+          "ko": "5개 기숙사 · 학교 안내 기준",
+          "en": "Five boarding houses, as listed in the school overview",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "size": {
+          "value": true,
+          "ko": "학교 안내 기준 760명 · 연도 미표기",
+          "en": "760 pupils on school overview; reporting year not stated",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "results": {
+          "value": [
+            {
+              "exam": "GCSE",
+              "year": "2026",
+              "metric": "9–7 (or equivalent)",
+              "value": "47%"
+            }
+          ],
+          "ko": "2026 GCSE: 9–7 또는 동등 등급 47%",
+          "en": "2026 GCSE: 47% of grades at 9–7 or equivalent",
+          "source": "https://www.bedes.org/senior-school/welcome-to-the-senior-school",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "destinations": null,
+        "activities": null,
+        "fees": {
+          "value": 55200,
+          "ko": "연 £55,200 · 기본 수업료 + 풀보딩",
+          "en": "£55,200/year · base tuition + full boarding",
+          "source": "https://www.bedes.org/admissions/fees",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 18400,
+          "vat": true,
+          "basis": {
+            "ko": "3학기 기준 계산: (£11,750 + £6,650) × 3. Sixth Form 추가요금 등은 별도.",
+            "en": "Calculated for three terms: (£11,750 + £6,650) × 3. Sixth Form and other supplements excluded."
+          },
+          "derived": true
+        },
+        "extras": {
+          "value": true,
+          "ko": "Sixth Form 추가요금 £120/학기 · 기타 추가비용은 학교 확인",
+          "en": "Sixth Form supplement £120/term; check other extras with the school",
+          "source": "https://www.bedes.org/admissions/fees",
+          "verified": "2026-10-21",
+          "year": "2026/27"
+        }
+      }
+    },
+    {
+      "slug": "bradfield",
+      "name": "Bradfield College",
+      "website": "https://www.bradfieldcollege.org.uk/",
+      "intro": {
+        "ko": "Berkshire에 위치한 13–18세 남녀공학 통학·기숙학교입니다. GCSE·IGCSE와 Sixth Form의 A-Level·IB 과정을 안내합니다.",
+        "en": "A co-educational day and boarding school for ages 13–18 in Berkshire, with GCSE/IGCSE, A-Level and IB pathways."
+      },
+      "facts": {
+        "location": {
+          "value": "Berkshire",
+          "ko": "Bradfield, Berkshire",
+          "en": "Bradfield, Berkshire",
+          "source": "https://www.bradfieldcollege.org.uk/article/bradfield-college-praised-by-inspectors-and-awarded-highest-accolade/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.bradfieldcollege.org.uk/article/bradfield-college-praised-by-inspectors-and-awarded-highest-accolade/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "13–18세",
+          "en": "Ages 13–18",
+          "source": "https://www.bradfieldcollege.org.uk/article/bradfield-college-praised-by-inspectors-and-awarded-highest-accolade/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "day-boarding",
+            "day"
+          ],
+          "ko": "기숙 / 데이보딩 / 통학",
+          "en": "Boarding / day boarding / day",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "IGCSE",
+            "A-Level",
+            "IB"
+          ],
+          "ko": "GCSE · IGCSE · A-Level · IB",
+          "en": "GCSE · IGCSE · A-Level · IB",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            9,
+            12
+          ],
+          "ko": "Year 9 / Year 12 입학 경로",
+          "en": "Year 9 / Year 12 entry routes",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": null,
+        "english": null,
+        "eal": {
+          "value": true,
+          "ko": "국제학생 대상 필요에 따른 영어 지원 안내",
+          "en": "English language support for international pupils where appropriate",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": null,
+        "pastoral": {
+          "value": true,
+          "ko": "국제학생 기숙사 생활 및 pastoral 지원 안내",
+          "en": "Boarding integration and pastoral support for international pupils",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "weekends": null,
+        "houses": null,
+        "size": null,
+        "results": null,
+        "destinations": null,
+        "activities": null,
+        "fees": {
+          "value": 60750,
+          "ko": "연 £60,750 · 기숙",
+          "en": "£60,750/year · boarding",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 20250,
+          "vat": true,
+          "basis": {
+            "ko": "학교가 안내한 연간 기숙학비. 보증금·비자 관련 비용 등 별도.",
+            "en": "Annual boarding fee published by the school. Deposits and visa-related charges are additional."
+          },
+          "derived": false
+        },
+        "extras": {
+          "value": true,
+          "ko": "등록비 £360 · 해외 거주 학부모 추가 보증금: 1학기 학비",
+          "en": "Registration £360; additional overseas-parent deposit of one term’s fees",
+          "source": "https://www.bradfieldcollege.org.uk/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": "2026/27"
+        }
+      }
+    },
+    {
+      "slug": "bryanston",
+      "name": "Bryanston School",
+      "website": "https://www.bryanston.co.uk/",
+      "intro": {
+        "ko": "Dorset에 위치한 남녀공학 학교로, 이 가이드에서는 Senior School을 비교합니다. Sixth Form은 A-Level·IB·CTEC 경로를 안내합니다.",
+        "en": "A co-educational school in Dorset. This guide focuses on the Senior School, with A-Level, IB and CTEC pathways in the Sixth Form."
+      },
+      "facts": {
+        "location": {
+          "value": "Dorset",
+          "ko": "Blandford Forum, Dorset",
+          "en": "Blandford Forum, Dorset",
+          "source": "https://www.bryanston.co.uk/wp-content/uploads/2026/03/Progress-Monitoring-Report.pdf",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.bryanston.co.uk/wp-content/uploads/2026/03/Progress-Monitoring-Report.pdf",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "13–18세 · Senior School",
+          "en": "Ages 13–18 · Senior School",
+          "source": "https://www.bryanston.co.uk/wp-content/uploads/2026/03/Progress-Monitoring-Report.pdf",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "day"
+          ],
+          "ko": "풀보딩 / 통학 · 기타 형태는 학년별 확인",
+          "en": "Full boarding / day; confirm other options by year group",
+          "source": "https://www.bryanston.co.uk/school-fees/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level",
+            "IB",
+            "CTEC"
+          ],
+          "ko": "GCSE · A-Level · IB · CTEC",
+          "en": "GCSE · A-Level · IB · CTEC",
+          "source": "https://www.bryanston.co.uk/sixth-form/academic-pathways/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "ko": "Year 9·10 (GCSE), 11 (Pre-IB), 12 (Sixth Form)",
+          "en": "Years 9–10 (GCSE), 11 (Pre-IB), 12 (Sixth Form)",
+          "source": "https://www.bryanston.co.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": {
+          "value": true,
+          "ko": "CAT4·Password 영어 평가 및 면접 · 온라인 진행 가능",
+          "en": "CAT4, Password English test and interview; online arrangements available",
+          "source": "https://www.bryanston.co.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": {
+          "value": true,
+          "ko": "영어 말하기·쓰기 능력 필요 · Password 평가 실시",
+          "en": "Written/spoken English proficiency required; Password test used",
+          "source": "https://www.bryanston.co.uk/admissions/international-admissions/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "eal": null,
+        "learning": null,
+        "pastoral": null,
+        "weekends": null,
+        "houses": null,
+        "size": null,
+        "results": null,
+        "destinations": {
+          "value": true,
+          "ko": "2026 진학 안내 예시: Oxford, Columbia, LSE, UCL · 전체 명단은 공식 자료 참고",
+          "en": "2026 published examples: Oxford, Columbia, LSE, UCL; see official list",
+          "source": "https://www.bryanston.co.uk/sixth-form/destinations/",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "activities": {
+          "value": true,
+          "ko": "개인 튜터와 독립학습을 결합한 Bryanston Method 운영",
+          "en": "Bryanston Method combines personal tutoring and structured independent study",
+          "source": "https://www.bryanston.co.uk/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "fees": {
+          "value": 59250,
+          "ko": "연 £59,250 · Senior School 기숙",
+          "en": "£59,250/year · Senior School boarding",
+          "source": "https://www.bryanston.co.uk/school-fees/",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 19750,
+          "vat": true,
+          "basis": {
+            "ko": "3학기 기준 계산: £19,750 × 3. 추가비용 별도.",
+            "en": "Calculated for three terms: £19,750 × 3. Extras excluded."
+          },
+          "derived": true
+        },
+        "extras": null
+      }
+    },
+    {
+      "slug": "canford",
+      "name": "Canford School",
+      "website": "https://www.canford.com/",
+      "intro": {
+        "ko": "Dorset의 Wimborne에 위치한 13–18세 남녀공학 풀보딩·통학학교입니다. 해외 지원자에게 UKiset과 개별 EAL 지원 절차를 안내합니다.",
+        "en": "A co-educational full boarding and day school for ages 13–18 in Wimborne, Dorset, with UKiset and individual EAL arrangements for overseas applicants."
+      },
+      "facts": {
+        "location": {
+          "value": "Dorset",
+          "ko": "Wimborne, Dorset",
+          "en": "Wimborne, Dorset",
+          "source": "https://www.canford.com/admissions/international",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.canford.com/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "13–18세",
+          "en": "Ages 13–18",
+          "source": "https://www.canford.com/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "day"
+          ],
+          "ko": "풀보딩 / 통학",
+          "en": "Full boarding / day",
+          "source": "https://www.canford.com/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level"
+          ],
+          "ko": "GCSE · A-Level",
+          "en": "GCSE · A-Level",
+          "source": "https://www.canford.com/lower-school/exam-results-and-careers/exam-results",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            9,
+            12
+          ],
+          "ko": "13+ / 16+ 입학 경로",
+          "en": "13+ / 16+ entry routes",
+          "source": "https://www.canford.com/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": {
+          "value": true,
+          "ko": "영어가 모국어가 아닌 지원자는 등록 시 유효한 UKiset 결과 제출",
+          "en": "Non-native English speakers must supply a valid UKiset result at registration",
+          "source": "https://www.canford.com/admissions/international",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": {
+          "value": true,
+          "ko": "UKiset 결과 필요 · 단일 합격 기준 점수는 확인 중",
+          "en": "UKiset required; no single verified admission score",
+          "source": "https://www.canford.com/admissions/international",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "eal": {
+          "value": true,
+          "ko": "개별 학습 계획과 주간 1:1 영어 수업 지원",
+          "en": "Individual learning plans and weekly one-to-one English lessons",
+          "source": "https://www.canford.com/admissions/international",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": null,
+        "pastoral": null,
+        "weekends": {
+          "value": true,
+          "ko": "저녁·주말 활동 프로그램 운영",
+          "en": "Evening and weekend activity programmes",
+          "source": "https://www.canford.com/admissions/international",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "houses": null,
+        "size": null,
+        "results": {
+          "value": [
+            {
+              "exam": "A-Level",
+              "year": "2026",
+              "metric": "A*–B",
+              "value": "87%"
+            }
+          ],
+          "ko": "2026 A-Level: A*–B 87%",
+          "en": "2026 A-Level: 87% of grades at A*–B",
+          "source": "https://www.canford.com/lower-school/exam-results-and-careers/exam-results",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "destinations": {
+          "value": true,
+          "ko": "2026 진학 안내에 Oxbridge·미국 대학·음악원·도제 과정 등 포함",
+          "en": "2026 outcomes include Oxbridge, US universities, conservatoire and apprenticeship routes",
+          "source": "https://www.canford.com/lower-school/exam-results-and-careers/exam-results",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "activities": null,
+        "fees": {
+          "value": 57219,
+          "ko": "연 £57,219 · 풀보딩",
+          "en": "£57,219/year · full boarding",
+          "source": "https://www.canford.com/admissions/fees-and-finance",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 19073,
+          "vat": true,
+          "basis": {
+            "ko": "학교가 안내한 연간 기숙학비. 시험 응시료 등 별도.",
+            "en": "Annual boarding fee published by the school. Exam entry fees and other extras excluded."
+          },
+          "derived": false
+        },
+        "extras": {
+          "value": true,
+          "ko": "등록비 £300 · GCSE·A-Level 시험 응시료 별도",
+          "en": "Registration £300; GCSE and A-Level exam entry fees additional",
+          "source": "https://www.canford.com/admissions/fees-and-finance",
+          "verified": "2026-10-21",
+          "year": "2026/27"
+        }
+      }
+    },
+    {
+      "slug": "clayesmore",
+      "name": "Clayesmore School",
+      "website": "https://www.clayesmore.com/",
+      "intro": {
+        "ko": "Dorset의 Iwerne Minster에 위치한 남녀공학 통학·기숙학교입니다. Sixth Form에서 A-Level과 BTEC을 조합할 수 있습니다.",
+        "en": "A co-educational day and boarding school in Iwerne Minster, Dorset, offering combinations of A-Levels and BTECs in the Sixth Form."
+      },
+      "facts": {
+        "location": {
+          "value": "Dorset",
+          "ko": "Iwerne Minster, Dorset",
+          "en": "Iwerne Minster, Dorset",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "Year 9–13 · 이 가이드의 비교 범위",
+          "en": "Years 9–13 · scope of this guide",
+          "source": "https://www.clayesmore.com/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "weekly",
+            "flexi",
+            "day"
+          ],
+          "ko": "풀·주중·유연 기숙 / 통학",
+          "en": "Full / weekly / flexi boarding / day",
+          "source": "https://www.clayesmore.com/pastoral-care/boarding-experience/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level",
+            "BTEC"
+          ],
+          "ko": "GCSE · A-Level · BTEC",
+          "en": "GCSE · A-Level · BTEC",
+          "source": "https://www.clayesmore.com/school-life/sixth-form/curriculum/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": null,
+        "admissions": {
+          "value": true,
+          "ko": "면접 및 Year 6 이상 영어·수학 평가 · Sixth Form 추가 평가 가능",
+          "en": "Interview and English/Maths assessments from Year 6; further Sixth Form assessments may apply",
+          "source": "https://www.clayesmore.com/admissions/international/admissions-process/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": null,
+        "eal": {
+          "value": true,
+          "ko": "EAL 지원 프로그램 운영 · 추가비용 별도",
+          "en": "EAL programmes available; additional charges apply",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": {
+          "value": true,
+          "ko": "The Learning Centre의 개별 학습 지원 · 추가비용 별도",
+          "en": "Individual support through The Learning Centre; additional charges apply",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "pastoral": {
+          "value": true,
+          "ko": "Houseparent·Matron 등 기숙사 담당팀 지원",
+          "en": "Houseparents, matrons and boarding teams support pupils",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "weekends": {
+          "value": true,
+          "ko": "해외 학생의 exeat·중간방학 체류 가능 안내 · 비용 별도 확인",
+          "en": "Exeat and half-term stays available for overseas boarders; confirm charges",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "houses": {
+          "value": true,
+          "ko": "Prep·Senior를 합쳐 5개 기숙사 안내",
+          "en": "Five boarding houses across Prep and Senior",
+          "source": "https://www.clayesmore.com/admissions/international/faqs/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "size": null,
+        "results": null,
+        "destinations": null,
+        "activities": null,
+        "fees": {
+          "value": null,
+          "ko": "정보 확인 중",
+          "en": "Not currently verified",
+          "source": "https://www.clayesmore.com/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": null,
+          "term": 16503.6,
+          "vat": true,
+          "basis": {
+            "ko": "Year 9–13 학기당 £16,503.60 (VAT 포함)이 게시돼 있으나 적용 학년도 미표기. 연간 비교에서 제외합니다.",
+            "en": "Year 9–13 termly boarding £16,503.60 including VAT is published without an academic year. Excluded from annual fee comparisons."
+          },
+          "derived": false
+        },
+        "extras": null
+      }
+    },
+    {
+      "slug": "embley",
+      "name": "Embley",
+      "website": "https://embley.org.uk/",
+      "intro": {
+        "ko": "Hampshire의 Romsey에 위치한 통학·기숙학교입니다. 국제학생 대상 GCSE·Pre-A-Level·A-Level 경로와 영어 수준 가이드를 안내합니다.",
+        "en": "A day and boarding school in Romsey, Hampshire, with GCSE, Pre-A-Level and A-Level pathways and published English language guidelines for international applicants."
+      },
+      "facts": {
+        "location": {
+          "value": "Hampshire",
+          "ko": "Romsey, Hampshire",
+          "en": "Romsey, Hampshire",
+          "source": "https://embley.org.uk/senior-boarding",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://embley.static.amais.com/Embley_ISI_Routine_Inspection_2025__Progress_Monitoring_Report_2026-2212.pdf?version=639177224313430000",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "ages": {
+          "value": [
+            11,
+            18
+          ],
+          "ko": "Year 7–13 · 기숙은 Year 7부터",
+          "en": "Years 7–13; boarding from Year 7",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "weekly",
+            "flexi",
+            "day"
+          ],
+          "ko": "풀·주중·유연 기숙 / 통학",
+          "en": "Full / weekly / flexi boarding / day",
+          "source": "https://embley.org.uk/senior-boarding",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level",
+            "Pre-A-Level"
+          ],
+          "ko": "GCSE · Pre-A-Level · A-Level",
+          "en": "GCSE · Pre-A-Level · A-Level",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "ko": "Year 7–10 / Year 11·Pre-A-Level / Year 12 경로",
+          "en": "Years 7–10 / Year 11 and Pre-A-Level / Year 12 routes",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": {
+          "value": true,
+          "ko": "영어·CAT4 및 면접 · GCSE·A-Level은 수학·과목별 평가 추가 가능",
+          "en": "English, CAT4 and interview; Maths/subject papers may apply for GCSE and A-Level",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": {
+          "value": true,
+          "ko": "Year 7–10: B1 · Year 11: B2 · Pre-A-Level: B2 또는 IELTS 5.0 · Year 12: B2 또는 IELTS 각 영역 5.5",
+          "en": "Years 7–10: B1; Year 11: B2; Pre-A-Level: B2 or IELTS 5.0; Year 12: B2 or IELTS 5.5 in all skills",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "eal": {
+          "value": true,
+          "ko": "필요에 맞춘 EAL 및 소규모 영어 수업",
+          "en": "Tailored EAL and small-group English lessons",
+          "source": "https://embley.org.uk/international-applicants",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": null,
+        "pastoral": {
+          "value": true,
+          "ko": "기숙사 담당 교직원·간호사·Matron 지원",
+          "en": "Boarding tutors, nurses and matron support pupils",
+          "source": "https://embley.org.uk/senior-boarding",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "weekends": {
+          "value": true,
+          "ko": "주말 활동·교외 체험 운영 · exeat 없음 안내",
+          "en": "Weekend outings and activities; school states there are no exeats",
+          "source": "https://embley.org.uk/senior-boarding",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "houses": {
+          "value": true,
+          "ko": "Manor House 기숙사 운영",
+          "en": "Boarding in the Manor House",
+          "source": "https://embley.org.uk/senior-boarding",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "size": null,
+        "results": null,
+        "destinations": null,
+        "activities": null,
+        "fees": {
+          "value": 50310,
+          "ko": "연 £50,310 · 국제학생 풀보딩 + 필수 점심",
+          "en": "£50,310/year · international boarding + compulsory lunch",
+          "source": "https://embley.org.uk/fees",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 16770,
+          "vat": true,
+          "basis": {
+            "ko": "3학기 기준 계산: (£16,374 + 필수 점심 £396) × 3. 수업·기숙비 VAT 포함, 점심은 VAT 면제. Pre-A-Level/1년 GCSE는 별도 요율.",
+            "en": "Calculated for three terms: (£16,374 + compulsory lunch £396) × 3. Tuition/boarding includes VAT; lunch is VAT exempt. Pre-A-Level/one-year GCSE has a separate rate."
+          },
+          "derived": true
+        },
+        "extras": {
+          "value": true,
+          "ko": "시험 응시·음악 개인레슨·통학버스·일부 체험 등 추가",
+          "en": "Exams, instrumental lessons, buses and some trips charged separately",
+          "source": "https://embley.org.uk/fees",
+          "verified": "2026-10-21",
+          "year": "2026/27"
+        }
+      }
+    },
+    {
+      "slug": "lancing",
+      "name": "Lancing College",
+      "website": "https://www.lancingcollege.co.uk/",
+      "intro": {
+        "ko": "West Sussex의 13–18세 남녀공학 통학·기숙학교입니다. GCSE와 A-Level 외 국제학생을 위한 1년 Pre-Sixth Form 경로를 안내합니다.",
+        "en": "A co-educational day and boarding school for ages 13–18 in West Sussex, with GCSE, A-Level and an international one-year Pre-Sixth Form pathway."
+      },
+      "facts": {
+        "location": {
+          "value": "West Sussex",
+          "ko": "Lancing, West Sussex",
+          "en": "Lancing, West Sussex",
+          "source": "https://www.lancingcollege.co.uk/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "coed",
+          "ko": "남녀공학",
+          "en": "Co-educational",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            13,
+            18
+          ],
+          "ko": "13–18세",
+          "en": "Ages 13–18",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "flexi",
+            "day"
+          ],
+          "ko": "풀·유연 기숙 / 통학",
+          "en": "Full / flexi boarding / day",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level"
+          ],
+          "ko": "GCSE · A-Level",
+          "en": "GCSE · A-Level",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": {
+          "value": [
+            9,
+            10,
+            11,
+            12
+          ],
+          "ko": "Year 9·12 / Year 10 공석 시 / Year 11 Pre-Sixth",
+          "en": "Years 9 and 12; Year 10 subject to space; Year 11 Pre-Sixth",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/international-pupils/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "admissions": {
+          "value": true,
+          "ko": "최근 성적표 2부 검토 후 CAT4·영어 에세이·면접 등 진행",
+          "en": "Two recent reports reviewed, followed typically by CAT4, English essay and interview",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/international-pupils/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "english": null,
+        "eal": {
+          "value": true,
+          "ko": "Year 11 Pre-Sixth에 집중 EAL 지원 안내",
+          "en": "Significant EAL support within the Year 11 Pre-Sixth programme",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/international-pupils/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": null,
+        "pastoral": null,
+        "weekends": null,
+        "houses": {
+          "value": true,
+          "ko": "7개 기숙 하우스 · 3개 통학 하우스",
+          "en": "Seven boarding houses and three day houses",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "size": null,
+        "results": {
+          "value": [
+            {
+              "exam": "A-Level",
+              "year": "2026",
+              "metric": "A*–A",
+              "value": "54%"
+            }
+          ],
+          "ko": "2026 A-Level: A*–A 54%",
+          "en": "2026 A-Level: 54% of grades at A*–A",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/sixth-form/a-level-results/",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "destinations": {
+          "value": true,
+          "ko": "2026 진학 예시: Cambridge 공학, Oxford 고전·영문학, Imperial 공학 등",
+          "en": "2026 examples: Cambridge Engineering, Oxford Classics/English, Imperial Engineering",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/leavers-destinations/",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "activities": null,
+        "fees": {
+          "value": 57540,
+          "ko": "연 £57,540 · 풀보딩 (주 5–7박)",
+          "en": "£57,540/year · full boarding (5–7 nights/week)",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": 19180,
+          "vat": true,
+          "basis": {
+            "ko": "3학기 기준 계산: £19,180 × 3. EAL·학습 지원·시험료 등 추가.",
+            "en": "Calculated for three terms: £19,180 × 3. EAL, learning support and exams are additional."
+          },
+          "derived": true
+        },
+        "extras": {
+          "value": true,
+          "ko": "EAL·학습 지원·시험·비자 관리·음악 레슨 등 별도",
+          "en": "EAL, learning support, exams, visa compliance and music lessons are additional",
+          "source": "https://www.lancingcollege.co.uk/lancing-college/admissions/fees/",
+          "verified": "2026-10-21",
+          "year": "2026/27"
+        }
+      }
+    },
+    {
+      "slug": "talbot-heath",
+      "name": "Talbot Heath School",
+      "website": "https://www.talbotheath.org/",
+      "intro": {
+        "ko": "Bournemouth에 위치한 여학교입니다. 이 가이드에서는 Senior School·Sixth Form을 다루며, 국제학생 대상 EAL·학습 지원을 안내합니다.",
+        "en": "A girls’ school in Bournemouth. This guide focuses on Senior School and Sixth Form, with EAL and learning support for international boarders."
+      },
+      "facts": {
+        "location": {
+          "value": "Dorset",
+          "ko": "Bournemouth, Dorset",
+          "en": "Bournemouth, Dorset",
+          "source": "https://www.talbotheath.org/senior-school-11-16/welcome-to-senior-school/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "gender": {
+          "value": "girls",
+          "ko": "여학교",
+          "en": "Girls’ school",
+          "source": "https://www.talbotheath.org/senior-school-11-16/welcome-to-senior-school/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "ages": {
+          "value": [
+            11,
+            18
+          ],
+          "ko": "11–18세 · Senior School 및 Sixth Form; 기숙 가능 연령 별도 확인",
+          "en": "Ages 11–18 · Senior and Sixth Form; confirm boarding entry ages",
+          "source": "https://www.talbotheath.org/senior-school-11-16/welcome-to-senior-school/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "boarding": {
+          "value": [
+            "full",
+            "weekly",
+            "flexi",
+            "day"
+          ],
+          "ko": "풀·주중·유연 기숙 / 통학",
+          "en": "Full / weekly / flexi boarding / day",
+          "source": "https://www.talbotheath.org/about-talbot-heath/fees-bursaries-scholarships/fees-2025-26/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "programmes": {
+          "value": [
+            "GCSE",
+            "A-Level"
+          ],
+          "ko": "GCSE · A-Level",
+          "en": "GCSE · A-Level",
+          "source": "https://www.talbotheath.org/about-talbot-heath/gcse-a-level-exam-results/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "entry": null,
+        "admissions": null,
+        "english": null,
+        "eal": {
+          "value": true,
+          "ko": "국제학생 EAL·언어 지원",
+          "en": "EAL and language support for international pupils",
+          "source": "https://www.talbotheath.org/boarding/international-families/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "learning": {
+          "value": true,
+          "ko": "영어 튜터·SENCo의 추가 지원 안내",
+          "en": "Additional English tutor and SENCo assistance",
+          "source": "https://www.talbotheath.org/boarding/international-families/",
+          "verified": "2026-10-21",
+          "year": null
+        },
+        "pastoral": null,
+        "weekends": null,
+        "houses": null,
+        "size": null,
+        "results": {
+          "value": [
+            {
+              "exam": "A-Level",
+              "year": "2026",
+              "metric": "A*–A",
+              "value": "56.1%",
+              "cohort": "17 candidates / 57 entries"
+            }
+          ],
+          "ko": "2026 A-Level: A*–A 56.1% · 응시자 17명 / 57과목",
+          "en": "2026 A-Level: 56.1% A*–A; 17 candidates / 57 entries",
+          "source": "https://www.talbotheath.org/about-talbot-heath/gcse-a-level-exam-results/",
+          "verified": "2026-10-21",
+          "year": "2026"
+        },
+        "destinations": null,
+        "activities": null,
+        "fees": {
+          "value": null,
+          "ko": "정보 확인 중",
+          "en": "Not currently verified",
+          "source": "https://www.talbotheath.org/about-talbot-heath/fees-bursaries-scholarships/fees-2025-26/",
+          "verified": "2026-10-21",
+          "year": "2026/27",
+          "term": null,
+          "vat": true,
+          "basis": {
+            "ko": "수업료와 풀보딩 £6,668/학기가 별도 표기. 합산·점심 포함 여부 및 학년별 총액 확인 후 연간 비교에 반영합니다.",
+            "en": "Tuition and full boarding (£6,668/term) are listed separately. Confirm combined totals, lunch and year-group scope before annual comparison."
+          },
+          "derived": false
+        },
+        "extras": null
+      }
+    }
+  ]
+}
