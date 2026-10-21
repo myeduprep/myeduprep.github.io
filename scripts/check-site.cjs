@@ -9,13 +9,13 @@ const assert=require('node:assert/strict');
  await page.locator('[data-filter="search"]').fill('Canford');assert.equal(await page.locator('[data-school-card]:visible').count(),1);
  await page.locator('[data-filter="gender"]').selectOption('girls');assert.equal(await page.locator('[data-school-card]:visible').count(),0);
  await page.locator('button[type=reset]').click();await page.waitForTimeout(50);assert.equal(await page.locator('[data-school-card]:visible').count(),8);
- for (const [filter,value] of [['location','unknown'],['age','13'],['programmes','IB'],['fees','0-40000'],['boarding','full']]) {
-   await page.locator(`[data-filter="${filter}"]`).selectOption(value);assert.equal(await page.locator('[data-school-card]:visible').count(),0);await page.locator('button[type=reset]').click();await page.waitForTimeout(20);
+ for (const [filter,value,count] of [['location','Dorset',3],['gender','girls',1],['age','13',5],['programmes','IB',2],['fees','0-40000',0],['fees','60000-999999',1],['boarding','weekly',3]]) {
+   await page.locator(`[data-filter="${filter}"]`).selectOption(value);assert.equal(await page.locator('[data-school-card]:visible').count(),count,filter+': '+value);await page.locator('button[type=reset]').click();await page.waitForTimeout(20);
  }
  console.log('PASS eight schools, search, all filters, reset and unknown-data exclusion');
  for(const id of ['bradfield','bedes','lancing']) await page.locator(`[data-compare-add="${id}"]`).click();
  await page.locator('[data-compare-add="embley"]').click();assert.match(await page.locator('[data-selection-feedback]').innerText(),/3/);
- await page.locator('[data-compare-link]').click();assert.equal(await page.locator('thead th').count(),4);assert.equal(await page.locator('tbody tr').count(),18);
+ await page.locator('[data-compare-link]').click();assert.equal(await page.locator('thead th').count(),4);assert.equal(await page.locator('tbody tr').count(),19);
  await page.reload();assert.equal(await page.locator('thead th').count(),4);await page.locator('.school-remove').first().click();assert.equal(await page.locator('thead th').count(),3);
  await page.locator('#school-picker').selectOption('embley');await page.locator('[data-picker-add]').click();assert.equal(await page.locator('thead th').count(),4);
  console.log('PASS three-school maximum, table, persistence, removal and add');

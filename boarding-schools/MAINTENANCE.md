@@ -2,10 +2,11 @@
 
 This is an extension of the existing static GitHub Pages site. No framework or
 production package dependencies are required. All eight school identities and
-website addresses were supplied in the brief. Official website access returned
-proxy 403 responses during implementation, so no school facts are marked verified.
-Talbot Heath is explicitly identified as the girls’ school requested in the brief;
-its official school-type fact remains unverified and is not used as a filter match.
+website addresses were supplied in the brief. Official school pages were reviewed
+on 22 October 2026 (Asia/Seoul). Verified facts record their exact official page,
+applicable academic/results year and verification date. Remaining unknown facts
+are explicitly labelled and excluded from filters. Talbot Heath's girls-only
+identity is verified from its official homepage.
 No school photos are used: the guide uses typographic placeholders.
 
 ## Update and verify school facts
@@ -47,14 +48,23 @@ For fees, record applicable year groups and VAT in the source-supported notes.
 If a school has multiple fees or result measures, summarise the scope clearly;
 do not substitute a single misleading number into the numeric fee filter.
 
-## Verification queue (all eight schools)
+## Remaining verification queue
 
-Check each school's official overview, admissions/international admissions, fees,
-GCSE and Sixth Form curriculum, results, destinations, boarding/weekends/houses,
-EAL, learning support, pastoral care, facilities and activities. Record the exact
-relevant source page per fact and the date it was actually read. Link addresses
-have not been independently checked for redirects or availability. Do not mark
-facts verified just because an address was provided.
+Complete null fields using each school's official sources. Full annual boarding
+fees are verified for Bradfield (2026/27 £60,750 including VAT) and Canford
+(2026/27 £57,219 including VAT). Bede's, Lancing, Embley and Bryanston publish
+termly schedules with scope or extra charges; these are separately labelled,
+without extrapolated annual filter values. Clayesmore's fee page does not state
+an academic year. Talbot Heath's fee and international inclusive schedules need
+scope reconciliation before a comparable annual total can be shown.
+
+Bradfield's 2026 A-Level/IB measures and Bede's 2026 combined A-Level/BTEC and
+GCSE/BTEC measures are clearly labelled. Other school results remain unverified
+where year/measure could not be confidently matched. Talbot Heath's 2026
+university destinations are sourced. Verify other null fields individually,
+including gender at Bradfield/Bryanston, entry ages where not explicitly stated,
+student counts, additional support details and any examination requirements.
+Do not turn an unclear or undated figure into a verified comparison statistic.
 
 ## Local validation
 

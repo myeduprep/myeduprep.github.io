@@ -46,10 +46,11 @@
     try { await navigator.clipboard.writeText(new URL(comparisonUrl(), location.origin).href); feedback(t('비교 링크를 복사했습니다.', 'Comparison link copied.')); }
     catch { feedback(t('주소창의 링크를 복사하여 공유해 주세요.', 'Copy the address bar URL to share this comparison.')); }
   });
-  function renderFact(cell, field) {
+  function renderFact(cell, field, key) {
     if (!known(field)) { cell.textContent = t('정보 확인 중', 'Not currently verified'); cell.classList.add('school-unknown'); return; }
     const value = field.value;
-    cell.textContent = typeof value === 'object' && !Array.isArray(value) ? value[english ? 'en' : 'ko'] : Array.isArray(value) ? value.join(', ') : String(value);
+    const enums = {girls: t('여학교','Girls'), boys: t('남학교','Boys'), coeducational: t('남녀공학','Co-educational'), full: t('풀보딩','Full boarding'), weekly: t('주간 보딩','Weekly boarding'), flexible: t('유연 보딩','Flexible boarding')};
+    cell.textContent = typeof value === 'object' && !Array.isArray(value) ? value[english ? 'en' : 'ko'] : Array.isArray(value) ? value.map(v => enums[v] || v).join(', ') : key === 'fees' ? '£' + value.toLocaleString('en-GB') : enums[value] || String(value);
     const meta = document.createElement('small'); meta.className = 'school-source';
     meta.textContent = [field.academicYear, field.verifiedAt].filter(Boolean).join(' · ') + ' · ';
     const source = document.createElement('a');
@@ -71,9 +72,9 @@
       remove.addEventListener('click', () => { selected = selected.filter(id => id !== school.id); save(); }); th.append(link, remove); row.append(th);
     }
     head.append(row);
-    for (const field of ['location','gender','age','boarding','fees','vat','programmes','results','destinations','application','entry','assessments','interviews','international','english','eal','learning','facilities']) {
+    for (const field of ['location','gender','ageRange','boarding','fees','feeNotes','vat','programmes','results','destinations','application','entry','assessments','interviews','international','english','eal','learning','facilities']) {
       const tr = document.createElement('tr'); const th = document.createElement('th'); th.scope = 'row'; th.textContent = labels[field][english ? 1 : 0]; tr.append(th);
-      for (const school of items) { const td = document.createElement('td'); renderFact(td, school.facts[field]); tr.append(td); } body.append(tr);
+      for (const school of items) { const td = document.createElement('td'); renderFact(td, school.facts[field], field); tr.append(td); } body.append(tr);
     }
     for (const option of picker.options) option.disabled = selected.includes(option.value);
   }
