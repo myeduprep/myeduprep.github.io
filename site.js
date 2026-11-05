@@ -158,7 +158,7 @@ contactPhone?.form.addEventListener('submit', (event) => {
 // Show the recruitment modal once per session, including when the page first opens in a background tab.
 const oxbridgeModal = document.querySelector('[data-oxbridge-modal]');
 if (oxbridgeModal && typeof oxbridgeModal.showModal === 'function') {
-  const seenKey = 'mep-oxbridge-2026-visible-seen';
+  const seenKey = 'mep-oxbridge-2026-layout-v2-seen';
   let alreadySeen = false;
   try { alreadySeen = sessionStorage.getItem(seenKey) === '1'; } catch {}
 
