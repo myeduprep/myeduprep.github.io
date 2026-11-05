@@ -785,3 +785,19 @@ body[data-lang="ko"] .service-insights-heading { max-width: 13ch; font-size: cla
 .oxbridge-home-copy { color: rgba(255,255,255,.85); font-size: .9rem; margin: 0; }
 .oxbridge-home-banner .button { flex-shrink: 0; }
 @media (max-width: 760px) { .oxbridge-home-banner-inner { flex-direction: column; align-items: flex-start; } }
+
+/* Expanded Oxbridge programme editorial content, consistent with site palette */
+.oxbridge-editorial { border-top: 1px solid var(--line); padding: clamp(1.6rem,3vw,2.4rem) 0; }
+.oxbridge-editorial-heading { max-width: 78ch; }
+.oxbridge-editorial-heading h4 { margin: .5rem 0 1rem; font: 500 clamp(1.5rem,2.5vw,2.2rem)/1.3 var(--serif); color: var(--navy); }
+.oxbridge-editorial-heading > p:not(.eyebrow) { color: var(--muted); line-height: 1.85; }
+.oxbridge-editorial-panel { margin-top: 1.5rem; background: var(--teal-soft); border-left: 3px solid var(--teal); padding: 1.3rem 1.5rem; }
+.oxbridge-editorial-panel p { margin: 0; color: var(--muted); }
+.oxbridge-editorial-panel .oxbridge-editorial-label { font-weight: 700; color: var(--navy); margin-bottom: .55rem; }
+.oxbridge-mistakes-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 1rem; margin-top: 1.4rem; }
+.oxbridge-mistakes-grid article { padding: 1.3rem; background: var(--ivory); border-top: 2px solid var(--navy); }
+.oxbridge-mistakes-grid article > span { color: var(--teal); font-weight: 750; font-size: .85rem; }
+.oxbridge-mistakes-grid h5 { margin: .4rem 0 .6rem; font-size: 1rem; color: var(--navy); }
+.oxbridge-mistakes-grid p { margin: 0; font-size: .88rem; color: var(--muted); }
+.oxbridge-experience { margin-bottom: .5rem; }
+@media (max-width: 600px) { .oxbridge-mistakes-grid { grid-template-columns: 1fr; } }
