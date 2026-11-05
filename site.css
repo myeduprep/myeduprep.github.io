@@ -801,3 +801,24 @@ body[data-lang="ko"] .service-insights-heading { max-width: 13ch; font-size: cla
 .oxbridge-mistakes-grid p { margin: 0; font-size: .88rem; color: var(--muted); }
 .oxbridge-experience { margin-bottom: .5rem; }
 @media (max-width: 600px) { .oxbridge-mistakes-grid { grid-template-columns: 1fr; } }
+
+/* 2026-11-05: tighter campaign popup and intentional two-line headline */
+.oxbridge-modal { width: min(720px,calc(100% - 2rem)); }
+.oxbridge-modal-panel { padding: clamp(1.5rem,3.1vw,2.35rem) clamp(1.5rem,4vw,3rem); }
+.oxbridge-modal .oxbridge-modal-kicker { margin: 0 0 .65rem; font-size: .72rem; }
+.oxbridge-modal .oxbridge-modal-label { margin: 0 0 .55rem; }
+.oxbridge-modal .oxbridge-modal-brand { font-size: clamp(2rem,5vw,3.45rem); margin: 0; white-space: nowrap; }
+.oxbridge-modal .oxbridge-modal-brand span { font-size: .55em; }
+.oxbridge-modal .oxbridge-modal-programme { margin: .05rem 0 .85rem; font-size: clamp(1rem,2.3vw,1.28rem); }
+.oxbridge-modal #oxbridge-modal-title { font-size: clamp(1.65rem,3vw,2.15rem); letter-spacing: -.045em; line-height: 1.31; margin: 0 0 .9rem; }
+.oxbridge-modal .oxbridge-headline-line { display: block; white-space: nowrap; }
+.oxbridge-modal #oxbridge-modal-description { line-height: 1.75; font-size: .91rem; }
+.oxbridge-modal .oxbridge-modal-meta { margin: .85rem 0 1rem; padding-top: .75rem; }
+@media (max-width: 520px) {
+ .oxbridge-modal { width: calc(100% - 1.25rem); }
+ .oxbridge-modal-panel { padding: 1.6rem 1.15rem; }
+ .oxbridge-modal .oxbridge-modal-brand { font-size: clamp(1.65rem,6.7vw,2.3rem); }
+ .oxbridge-modal .oxbridge-modal-brand span { font-size: .48em; }
+ .oxbridge-modal #oxbridge-modal-title { font-size: clamp(1.3rem,5vw,1.75rem); }
+ .oxbridge-modal .oxbridge-headline-line { white-space: normal; }
+}
