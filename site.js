@@ -155,18 +155,26 @@ contactPhone?.form.addEventListener('submit', (event) => {
   if (!contactPhone.checkValidity()) { event.preventDefault(); contactPhone.reportValidity(); }
 });
 
-// Show the 2026 interview recruitment announcement once per browser session on the homepage.
+// Show the recruitment modal once per session, including when the page first opens in a background tab.
 const oxbridgeModal = document.querySelector('[data-oxbridge-modal]');
 if (oxbridgeModal && typeof oxbridgeModal.showModal === 'function') {
+  const seenKey = 'mep-oxbridge-2026-visible-seen';
   let alreadySeen = false;
-  try { alreadySeen = sessionStorage.getItem('mep-oxbridge-2026-nov-seen') === '1'; } catch {}
+  try { alreadySeen = sessionStorage.getItem(seenKey) === '1'; } catch {}
+
+  const showRecruitment = () => {
+    if (alreadySeen || document.visibilityState !== 'visible' || oxbridgeModal.open) return;
+    oxbridgeModal.showModal();
+    alreadySeen = true;
+    try { sessionStorage.setItem(seenKey, '1'); } catch {}
+    document.removeEventListener('visibilitychange', showRecruitment);
+  };
+
   if (!alreadySeen) {
-    window.setTimeout(() => {
-      if (document.visibilityState !== 'visible' || oxbridgeModal.open) return;
-      oxbridgeModal.showModal();
-      try { sessionStorage.setItem('mep-oxbridge-2026-nov-seen', '1'); } catch {}
-    }, 2200);
+    window.setTimeout(showRecruitment, 2200);
+    document.addEventListener('visibilitychange', showRecruitment);
   }
+
   oxbridgeModal.querySelector('[data-oxbridge-close]')?.addEventListener('click', () => oxbridgeModal.close());
   oxbridgeModal.addEventListener('click', (event) => {
     if (event.target === oxbridgeModal) oxbridgeModal.close();
